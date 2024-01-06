@@ -1,0 +1,367 @@
+        body
+		{
+         background-color: grey;
+		}
+		header
+		{
+			width: cover;
+			height: 200px;
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			padding: 3px;
+			background-color: whitesmoke;
+		}
+		.h1
+		{
+			height:80px;
+			width:700px;
+			background-color:white;
+		}
+		.h1 select
+		{
+			position:relative;
+			bottom:68px; left: 400px; 
+			height: 50px; width: 250px; 
+			border-radius: 20px;
+		}
+		.h1 input
+		{
+			position:relative;
+			top: 10px; 
+			height: 45px; width: 250px; 
+			border-radius: 20px;
+		}
+		.h1 h3
+		{
+			font-size: 15px;
+			word-spacing: 8px;
+			margin: 10px;
+			bottom: 25px; top: 15px; left: 20px;
+			position: relative;
+			display: inline-block;
+		}
+		.h1 h3:hover
+		{
+			color: red;
+
+		}
+		#h1
+		{
+			height:50px;
+			width:1100px;
+		}
+		#h1 ul
+		{
+			padding:0px;
+			list-style: none;
+		}
+		#h1 ul li
+		{
+			display: inline-block;
+			position: relative;
+			line-height: 10px;
+			text-align: left;
+			border-right: 1px solid blue;
+		}
+		#h1 ul li a 
+		{
+			display: inline-block;
+			padding: 8px 25px;
+			color: black;
+			text-decoration: none;
+		}
+		#h1 ul li a:hover
+		{
+			color: red;
+			background-color: lightcyan;
+		}
+		#pic
+		{
+			height: 480px;
+			padding: 10px;
+			width: cover;
+		    background-color: grey;
+		    background-image: url("C:/Users/aswin/OneDrive/Pictures/cake1.jpg");
+		    background-repeat: no-repeat;
+		}
+		#pic h1
+		{
+			color: cyan;
+			position: absolute;
+			top: 380px;
+			left: 280px;
+			font-size: 50px;
+		}
+		#pic h2
+		{
+			color: chocolate;
+			position: absolute;
+			top: 435px;
+			left: 280px;
+			font-size: 30px;
+		}
+		#online,#online1
+		{
+			height: fit-content;
+			width: cover;
+			background-color: white;
+		}
+		#online h1
+		{
+			color: navy;
+		    padding-left: 30px;
+		    padding-top: 20px;
+		}
+		#online .img 
+		{
+			border-radius: 50%;
+			height: 200px;
+			width: 200px;
+		    left: 150px;
+		    padding: 20px 20px 20px 20px;
+			position: relative;
+			transition: 3s transform;
+		}
+		#online .img:hover
+		{
+			transform: scale(0.9,0.9);
+			animation-name: karthik;
+			animation-duration: 3s;
+        	animation-iteration-count: infinite;	
+		}
+		 @keyframes karthik
+        {
+        	0% {box-shadow: 0px 0px 20px green;}
+        	25% {box-shadow: 0px 0px 20px blue;}
+        	50% {box-shadow: 0px 0px 20px orange;}
+        	75% {box-shadow: 0px 0px 20px red;}
+        	100% {box-shadow: 0px 0px 20px cyan;}
+        }
+		#online div
+		{
+			color:black;
+			height: 30px;
+			width: 1200px;
+			display: flex;
+			font-size: 30px;
+			word-spacing: 150px;
+			position: relative;
+			left: 230px;
+			padding-bottom: 20px;
+		}
+		#best
+		{
+			height: 600px;
+			width: cover;
+			background-color: white;
+			padding-left: 100px;
+
+		}
+		#best h1 
+		{
+			position: relative;
+			padding-left: 20px;
+			top: 50px;
+			font-size: 40px;
+		}
+		#best #h3
+		{
+			position: relative;
+			padding-left: 20px;
+			top:25px;
+			font-size: 15px;
+
+		}
+		#best .b1
+		{
+			height: 400px;
+			width: 300px;
+			position: relative;
+			display: inline-block;
+			top: 30px;
+			margin: 10px;
+			overflow: hidden;
+
+        }
+        #best .b1:hover
+        {
+        	animation-name: karthik;
+			animation-duration: 3s;
+        	animation-iteration-count: infinite;
+        }
+        
+        #best .b1 .img1
+        {
+        	height: 300px;
+        	width: 300px;
+        	transition: 3s;
+        }
+        #best .b1 .img1:hover
+        {
+        	transform: scale(1.2);
+
+        }
+        #best .b1 .b3
+        {
+        	position: relative;
+        	left:10px;
+        	bottom: 10px;
+        }
+        #best .b1 .h5
+        {
+        	position: relative;
+        	left:10px;
+        	bottom: 25px;
+        }
+        #best .b2
+        {
+        	height: 300px;
+			width: 300px;
+			position: relative;
+			display: inline-block;
+			top: 30px;
+			margin: 10px;
+
+        }
+        #best .b2:hover
+        {
+        	box-shadow: 0px 0px 20px black;
+        }
+        #best .b2 .img1
+        {
+        	height: 300px;
+        	width: 300px;
+        }
+        #best .b2 h2
+        {
+        	position: relative;
+        	bottom: 70px;
+        	background-color: white;
+        	width: 120px;
+        	padding: 10px;
+        	border-top-right-radius: 20px;
+        }
+        #online1 h1
+        {
+        	color: navy;
+		    padding-left: 200px;
+		    padding-top: 20px;
+        }
+        #online1 .img
+        {
+        	border-radius: 50%;
+			height: 200px;
+			width: 200px;
+		    left: 150px;
+		    padding: 20px 20px 20px 20px;
+			position: relative;
+        }
+        #online1 .img:hover
+        {
+        	animation-name: karthik;
+			animation-duration: 3s;
+        	animation-iteration-count: infinite;
+        }
+        #online1 div
+        {
+        	color:black;
+			height: 30px;
+			width: 1200px;
+			display: flex;
+			font-size: 30px;
+			word-spacing: 100px;
+			position: relative;
+			left: 200px;
+			padding-bottom: 20px;
+        }
+        #review
+        {
+        	display: flex;
+        	justify-content: space-around;
+        	align-items: center;
+        	width: cover;
+        	height: 300px;
+        	background-color: white;
+        	padding: 10px;
+        	position: relative;
+        	top: 30px;
+        }
+        #review .r1
+        {
+        	height: 200px;
+        	width: 400px;
+        	background-color: floralwhite;
+        }
+        #review .n1
+        {
+        	position: relative;
+        	bottom: 10px;
+        	padding-left: 20px;
+        }
+        #review .ra1
+        {
+        	position: relative;
+        	bottom: 30px;
+        	padding-left: 20px;
+        }
+        #review .star
+        {
+        	position: relative;
+        	bottom: 50px;
+        	padding-left: 20px;
+        	color: gold;
+        }
+        #review .p1
+        {
+        	position: relative;
+        	width: 300px;
+        	text-align: justify;
+        	bottom: 60px;
+        	left: 20px;
+        }
+        #review .r1 #head
+        {
+        	position: relative;
+        	bottom: 260px;
+        }
+        footer
+        {
+        	display: flex;
+        	justify-content: space-around;
+        	align-items: center;
+        	width: cover;
+        	height: 300px;
+        	padding: 10px;
+        	background-color: white;
+        	position: relative;
+        	top: 60px;
+        }
+        footer .f1
+        {
+        	height: 200px;
+        	width: 400px;
+        	background-color: whitesmoke;
+        }
+        footer .icon 
+        {
+        	height: 30px;
+        	width: 30px;
+        }
+        footer .icon:hover
+        {
+        	box-shadow: 1px 10px 10px green;
+        }
+        footer .f1 p
+        {
+        	height: 100px;
+        	width: 100px;
+        }
+        footer .f1 pre
+        {
+        	position: relative;
+        	top: 30px;
+        	right: 50px;
+        	line-height: 20px;
+        	font-size: 15px;
+        }
