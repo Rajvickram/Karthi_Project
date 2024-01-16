@@ -1,0 +1,8 @@
+.top-table a:hover{
+    color: aquamarine;
+}
+
+.top-table a{
+    text-decoration: none;
+    margin: 10px;
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+html {
+  font-size: 62.5%;
+}
+.navbar-brand:hover
+{
+	transform: scale(1.2);
+}
+body {
+  font-family: Open Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  position: relative;
+}
+p 
+{
+  margin-bottom: 0.5em;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+#h1res,#fh1
+{
+	 font-size: 60px; 
+	 color: sandybrown;
+	 text-align: center; 
+	 background:rgba(0, 0, 0, 0.2);
+	 text-shadow: 4px 4px 2px darkred;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ff0000;
+}
+.header-area 
+{
+  position: relative;
+  height: 15vh;
+  background:linear-gradient(to left,#d66d75 ,#e29587);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar 
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 8px;
+  width: 100%;
+  transition: background 0.6s ease-in;
+  z-index: 99999;
+}
+.navbar-dark .navbar-nav .nav-link {
+  position: relative;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.navbar.fixed-top {
+  position: fixed;
+  -webkit-animation: navbar-animation 0.6s;
+  animation: navbar-animation 0.6s;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.content
+{
+  padding: 100px 0;
+}
+#aboutus
+{
+	 display: flex;
+}
+#product
+{
+	display: flex;
+	background: linear-gradient(#000428,#004e92);
+	color: whitesmoke;
+}
+#quality
+{
+	display: flex;
+}
+#clients
+{
+		display: flex;
+	background: linear-gradient(to top,#000428,#004e92);
+	color: whitesmoke;
+}
+#certificate .col-md-12
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#certificate img
+{
+	 image-rendering: pixelated;
+	 transition: 2s;
+}
+#certificate .col-md-12 img:hover
+{
+transform: scale(1.2);
+}
+#quality .col-md-4
+{
+	padding: 20px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#quality p
+{
+	width: 300px;
+	text-align: center;
+	margin-top: 20px;
+	/*margin-left: 70px;*/
+}
+#quality img
+{
+	 height:300px;
+	 width:200px; 
+	 border-radius: 10px;
+	 transition: 2s;
+	 margin-top: 10px;
+	 -webkit-image-rendering: pixelated;
+}
+#quality img:hover
+{
+  transform: scale(1.1);
+  animation-name: karthik;
+	animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#footer
+{
+	display: flex;
+	flex-direction: column;
+	background: lightcyan;
+
+}
+#icon 
+{
+  font-size: 30px;
+  text-align: center;
+}
+.fa-facebook,.fa-twitter,.fa-linkedin 
+{
+  background: #3B5998;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;}
+.fa-twitter{background:#55ACEE;}
+.fa-linkedin{background: #007bb5;}
+@keyframes karthik
+        {
+        	0% {box-shadow: 0px 0px 20px green;}
+        	25% {box-shadow: 0px 0px 20px blue;}
+        	50% {box-shadow: 0px 0px 20px orange;}
+        	75% {box-shadow: 0px 0px 20px red;}
+        	100% {box-shadow: 0px 0px 20px cyan;}
+        }
+@media screen and (max-width: 768px) 
+{
+  .navbar-brand 
+  {
+    margin-left: 20px;
+  }
+  .navbar-nav 
+  {
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, .9);
+  }
+  .navbar.fixed-top .navbar-nav 
+  {
+    background: transparent;
+  }
+}
+  .navbar-dark .navbar-nav .nav-link 
+  {
+    padding: 23px 15px;
+    margin-left: 20px;
+  }
+  .navbar-dark .navbar-nav .nav-link
+  {
+  	color: cyan;
+  }
+  .navbar-dark .navbar-nav .nav-link::after 
+  {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: 30%;
+    right: 30%;
+    height: 1px;
+    background-color: whitesmoke;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: transform 0.1s ease-in;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover::after 
+  {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+@keyframes navbar-animation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+  
