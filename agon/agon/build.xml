@@ -68,6 +68,23 @@
     the compile target as the regular run target does. Again, for a list of available 
     properties which you can use, check the target you are overriding in the
     nbproject/build-impl.xml file. 
-
+git init;
+    git commit -m "Modified";
+    git status;
+    git branch;
+    git branch -m main;
+    -init-macrodef-javac: git branch git checkout main -m "JAR File updated on XML request will saved";
+    git push origin main -u branch;
+    git javadoc -m build the current status;
+    git test -XML request branch -m main;
+    git move to "agon.html and agon.css build.xml";
+    <target name="-post-compile">
+            <obfuscate>
+                <fileset dir="${build.classes.dir}"/>
+            </obfuscate>
+        </target>
+    <target>
+    The values are moved to git branch and git status to get all values in current branch -nbproject/build-impl.xml file;
+    </target>
     -->
 </project>
